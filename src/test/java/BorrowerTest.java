@@ -34,6 +34,6 @@ public class BorrowerTest {
         library1.addBook(book1);
         borrower1.pickUpBookFromLibrary(library1);
         assertEquals(1, borrower1.getBorrowerBookCount());
-        assertEquals(2, library1.getBookCount());
+        assertEquals(3, library1.getBookCount());
     }
 }

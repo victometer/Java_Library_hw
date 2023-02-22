@@ -22,6 +22,7 @@ public class LibraryTest {
         books = new ArrayList<Books>(
                 Arrays.asList (book1, book2, book3));
         library1 = new Library(books, 5);
+        book1 = new Books("something", "GH", "none");
 
     }
 
